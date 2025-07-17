@@ -12,31 +12,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: "RankVibe - Google Keyword Generator",
-	description: "Generate keyword suggestions instantly from Google Suggest.",
+	title: "Tushar Bhanushali",
+	description: "Portfolio of Tushar Bhanushali — Full Stack Developer specializing in Next.js, React, and the MERN stack.",
 	icons: {
 		icon: "/favicon.ico",
 	},
 	openGraph: {
-		title: "RankVibe - Google Keyword Generator",
-		description: "Generate keyword suggestions instantly from Google Suggest.",
-		url: "https://rankvibehq.netlify.app/",
-		siteName: "RankVibe",
+		title: "Tushar Bhanushali",
+		description: "Portfolio of Tushar Bhanushali — Full Stack Developer specializing in Next.js, React, and the MERN stack.",
+		url: "https://tushardama.vercel.app/",
+		siteName: "Tushar Bhanushali",
 		images: [
 			{
-				url: "/og.jpg", // Path relative to public/
+				url: "/og.png", // Path relative to public/
 				width: 1200,
 				height: 630,
-				alt: "RankVibe OG Image",
+				alt: "Tushar Bhanushali OG Image",
 			},
 		],
 		type: "website",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "RankVibe - Google Keyword Generator",
-		description: "Generate keyword suggestions instantly from Google Suggest.",
-		images: ["/og.jpg"],
+		title: "Tushar Bhanushali - Full Stack Developer | Next.js | MERN Stack",
+		description: "Portfolio of Tushar Bhanushali — Full Stack Developer specializing in Next.js, React, and the MERN stack.",
+		images: ["/og.png"],
 	},
 };
 
