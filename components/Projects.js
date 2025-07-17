@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { PiRocketLaunchBold } from 'react-icons/pi';
+import Image from 'next/image';
 
 const projects = [
 	{
@@ -45,7 +46,7 @@ export default function ProjectsSection() {
 							className="bg-white/5 border border-white/10 backdrop-blur-md rounded-xl overflow-hidden"
 						>
 							<div className="relative w-full aspect-video overflow-hidden border-b border-white/10">
-								<img
+								<Image
 									src={project.og}
 									alt={`${project.name} preview`}
 									className="w-full h-full object-cover"

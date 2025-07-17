@@ -24,7 +24,7 @@ export default function TechStackGrid() {
 			<div className="max-w-6xl mx-auto">
 				<h2 className="text-4xl font-bold mb-4">Current technologies</h2>
 				<p className="text-gray-400 mb-10 max-w-2xl">
-					I'm proficient in a range of modern technologies that empower me to build highly functional solutions. These are some of my main technologies.
+					I&apos;m proficient in a range of modern technologies that empower me to build highly functional solutions. These are some of my main technologies.
 				</p>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 					{tech.map((item, i) => (
