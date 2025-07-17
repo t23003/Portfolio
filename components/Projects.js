@@ -15,7 +15,7 @@ const projects = [
 		name: 'RankVibeHQ',
 		url: 'https://rankvibehq.vercel.app',
 		repo: 'https://github.com/tushardama/rankvibehq',
-		og: 'https://rankvibehq.vercel.app/og.jpg',
+		og: 'rankvibe.jpg',
 		description: `SEO keyword tool that fetches and clusters Google autocomplete suggestions. Implements async fetch batching, deduplication, and exportable results. Designed for fast and clean SEO content planning.`,
 	},
 	{

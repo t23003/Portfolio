@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	metadataBase: new URL("https://tushardama.vercel.app"), // ✅ This is required
+	metadataBase: new URL("https://tushardama.vercel.app"),
 
 	title: "Tushar Bhanushali",
 	description: "Portfolio of Tushar Bhanushali — Full Stack Developer specializing in Next.js, React, and the MERN stack.",
