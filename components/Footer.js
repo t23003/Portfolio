@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
 	return (
@@ -16,14 +16,16 @@ export default function Footer() {
 						<span className='wrap-anywhere'>dev.tusharbhanushali@gmail.com</span>
 					</div>
 
-					<a
-						href="https://x.com/TUSHARBHANUSH20"
-						target="_blank"
-						rel="noreferrer"
-						className="inline-block mt-4 px-6 py-2 rounded-lg bg-white text-black font-semibold hover:opacity-90 transition"
-					>
-						Hire Me
-					</a>
+					<div className='mt-8'>
+						<a
+							href="https://x.com/TUSHARBHANUSH20"
+							target="_blank"
+							rel="noreferrer"
+							className="btn-primary"
+						>
+							Hire Me
+						</a>
+					</div>
 				</div>
 
 				<div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 border-t border-white/10 pt-10 text-sm text-gray-400">
