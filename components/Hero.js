@@ -68,10 +68,10 @@ export default function Hero() {
 					</a>
 				</div>
 
-				<div className="flex flex-col md:flex-row gap-4 mt-2">
+				<div className="flex flex-col md:flex-row gap-4 mt-2 w-full">
 					<Link
 						href="#projects"
-						className="btn-primary hover:opacity-90 transition-opacity"
+						className="btn-primary w-full md:w-auto text-center"
 					>
 						View Projects
 					</Link>
@@ -79,11 +79,12 @@ export default function Hero() {
 						href="/resume.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="btn-secondary hover:opacity-90 transition-opacity"
+						className="btn-secondary w-full md:w-auto text-center"
 					>
 						View Resume
 					</a>
 				</div>
+
 			</div>
 		</div>
 	);

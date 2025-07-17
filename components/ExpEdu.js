@@ -4,8 +4,9 @@ import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 export default function ExperienceEducation() {
 	return (
 		<section className="w-full py-8 text-white" id="experience">
+			<h2 className="text-4xl font-bold mb-10 text-white">Work & Education</h2>
 			<div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
-
+				
 				<div className="bg-white/5 border border-white/10 backdrop-blur-md p-6 rounded-xl space-y-4">
 					<div className="flex items-center gap-3">
 						<FaBriefcase className="text-xl text-blue-400" />

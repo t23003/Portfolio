@@ -11,7 +11,7 @@ export default function Footer() {
 						Actively seeking full-time or freelance opportunities — <a href='mailto:dev.tusharbhanushali@gmail.com' className="text-blue-400 underline">email me</a> to connect directly.
 					</h2>
 
-					<div className="flex flex-col md:flex-row items-start md:items-center gap-2 text-base md:text-2xl">
+					<div className="my-4 flex flex-col md:flex-row items-start md:items-center gap-2 text-base md:text-2xl">
 						<FaEnvelope className="text-blue-400" />
 						<span className='wrap-anywhere'>dev.tusharbhanushali@gmail.com</span>
 					</div>

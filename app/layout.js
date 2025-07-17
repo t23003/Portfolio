@@ -12,6 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+	metadataBase: new URL("https://tushardama.vercel.app"), // ✅ This is required
+
 	title: "Tushar Bhanushali",
 	description: "Portfolio of Tushar Bhanushali — Full Stack Developer specializing in Next.js, React, and the MERN stack.",
 	icons: {
@@ -24,7 +26,7 @@ export const metadata = {
 		siteName: "Tushar Bhanushali",
 		images: [
 			{
-				url: "/og.png", // Path relative to public/
+				url: "/og.png",
 				width: 1200,
 				height: 630,
 				alt: "Tushar Bhanushali OG Image",

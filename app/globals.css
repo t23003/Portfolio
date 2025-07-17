@@ -4,6 +4,10 @@
 	--color-base-pr: #18181b;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 @theme {
 	--color-primary: #18181b;
 }
