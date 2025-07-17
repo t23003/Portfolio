@@ -7,7 +7,7 @@ const projects = [
 		name: 'GoDinoType',
 		url: 'https://godinotype.netlify.app',
 		repo: 'https://github.com/tushardama/godinotype',
-		og: 'https://godinotype.netlify.app/og.jpg?v=2',
+		og: '/godinotype.png',
 		description: `A real-time typing race application built with Next.js. Tracks WPM, accuracy, and dynamic caret feedback with Firebase session storage. Features Google/GitHub login, live leaderboard, and public result sharing.`,
 	},
 	{
@@ -21,14 +21,14 @@ const projects = [
 		name: 'ShrinkX',
 		url: 'https://shrinkx.netlify.app',
 		repo: 'https://github.com/tushardama/shrinkx',
-		og: 'https://shrinkx.netlify.app/og.png',
+		og: '/shrinkx.png',
 		description: `Authenticated URL shortener with user dashboard. Uses NextAuth.js for session-based login, Prisma for metadata tracking, and custom redirect handling. Limits and manages links per user.`,
 	},
 	{
 		name: 'Luxury Developers',
 		url: 'https://luxurydevelopersltd.netlify.app',
 		repo: 'https://github.com/tushardama/luxurydevelopers',
-		og: 'https://luxurydevelopersltd.netlify.app/og.png',
+		og: '/luxurydevelopers.png',
 		description: `Responsive real estate website designed for client demos. Features smooth transitions, high-conversion layout, and visually-rich project presentation. Built with Tailwind and Framer Motion.`,
 	},
 ];
